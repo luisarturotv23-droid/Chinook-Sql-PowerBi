@@ -1,14 +1,5 @@
+-- VW_DesempenoEmpleados (vista 1)
 
-
-select * from invoice
-select * from invoiceline
-select * from track
-select * from album
-select * from artist
-select * from customer
-select * from vw_fact_ventasdetalle
-
- // 
 
 CREATE VIEW VW_Fact_VentasDetalle AS 
 SELECT 
