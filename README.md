@@ -51,18 +51,18 @@ chinook-powerbi-sql/
 ── SQL/ 
 
 
-   ── [Query VW_DesempenoEmpleados](<SQL/Query VW_DesempenoEmpleados>)
+   |── [Query VW_DesempenoEmpleados](<SQL/Query VW_DesempenoEmpleados>)
 
-   ── [Query VW_Fact_VentaDetalles](<SQL/Query VW_Fact_VentaDetalles.sql>)
+   |── [Query VW_Fact_VentaDetalles](<SQL/Query VW_Fact_VentaDetalles.sql>)
 
 
 ── PowerBI/
 
 
-   └── Chinook_Report.pbix
+   |── Chinook_Report.pbix
 
 
-└── Images/
+|── Images/
 
 
 ## 📊 Reporte en Power BI
