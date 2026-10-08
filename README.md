@@ -21,11 +21,10 @@ El desarrollo del proyecto se realizó siguiendo el siguiente flujo:
 
 ### 1. SQL
 
-Se crearon **dos vistas SQL** a partir de las tablas de la base de datos Chinook.
+Se crearon dos vistas SQL para organizar y preparar la información utilizada posteriormente en Power BI.
 
-Las vistas permiten organizar y relacionar la información necesaria para posteriormente utilizarla en Power BI.
-
-Las consultas utilizadas se encuentran en la carpeta SQL.
+- [Query VW_DesempenoEmpleados](<SQL/Query VW_DesempenoEmpleados>)
+- [Query VW_Fact_VentaDetalles](<SQL/Query VW_Fact_VentaDetalles.sql>)
 
 2. Power BI
 
