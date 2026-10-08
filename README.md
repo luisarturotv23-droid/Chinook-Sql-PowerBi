@@ -46,20 +46,20 @@ chinook-powerbi-sql/
 │
 
 ├── README.md
-│
-
-├── SQL/
 
 
-│   ├── [Query VW_DesempenoEmpleados](<SQL/Query VW_DesempenoEmpleados>)
-
-│   └── [Query VW_Fact_VentaDetalles](<SQL/Query VW_Fact_VentaDetalles.sql>)
+── SQL/ 
 
 
-├── PowerBI/
+   ── [Query VW_DesempenoEmpleados](<SQL/Query VW_DesempenoEmpleados>)
+
+   ── [Query VW_Fact_VentaDetalles](<SQL/Query VW_Fact_VentaDetalles.sql>)
 
 
-│   └── Chinook_Report.pbix
+── PowerBI/
+
+
+   └── Chinook_Report.pbix
 
 
 └── Images/
