@@ -1,0 +1,38 @@
+
+
+select * from invoice
+select * from invoiceline
+select * from track
+select * from album
+select * from artist
+select * from customer
+select * from vw_fact_ventasdetalle
+
+ // 
+
+CREATE VIEW VW_Fact_VentasDetalle AS 
+SELECT 
+	  
+	il.InvoiceLineId,
+	i.InvoiceId,
+	i.InvoiceDate AS FechaFactura,
+	c.CustomerId,
+	c.FirstName + ' ' + c.LastName AS NombreCliente,
+	c.Country AS PaisCliente,
+	t.TrackId,
+	t.Name AS NombreCancion,
+	a.AlbumId,
+	a.Title AS NombreAlbum,
+	ar.ArtistId,
+	ar.Name AS NombreArtista,
+	il.UnitPrice AS PrecioUnitario,
+	il.Quantity AS Cantidad,
+	(il.UnitPrice * il.Quantity) AS MontoTotal
+
+	FROM dbo.invoiceline il
+	INNER JOIN dbo.invoice i ON il.InvoiceId = i.InvoiceId
+	INNER JOIN dbo.customer c ON i.CustomerId = c.CustomerId
+	INNER JOIN dbo.Track t ON il.TrackId = t.TrackId
+	INNER JOIN dbo.album a ON t.AlbumId = a.AlbumId
+	INNER JOIN dbo.artist ar ON a.ArtistId = ar.ArtistId
+	
