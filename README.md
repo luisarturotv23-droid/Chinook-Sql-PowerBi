@@ -55,9 +55,19 @@ chinook-powerbi-sql/
 │   └── Chinook_Report.pbix
 │
 └── Images/
-    └── Dashboard 1
-    └── Dashboard 2
-    └── Dashboard 3
+    ## 📊 Reporte en Power BI
+
+### Dashboard 1
+
+![Dashboard 1](Images/Dashboard%201.png)
+
+### Dashboard 2
+
+![Dashboard 2](Images/Dashboard%202.png)
+
+### Dashboard 3
+
+![Dashboard 3](Images/Dashboard%203.png)
 🎯 Objetivo del proyecto
 
 Aplicar un flujo básico de Business Intelligence, partiendo desde la extracción y estructuración de datos mediante SQL hasta su análisis y visualización en Power BI.
