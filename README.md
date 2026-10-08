@@ -48,14 +48,16 @@ chinook-powerbi-sql/
 ├── README.md
 │
 ├── SQL/
-│   ├── vista_1.sql
-│   └── vista_2.sql
+│   ├── Query VW_DesempenoEmpleados.sql
+│   └── Query VW_Fact_VentaDetalles.sql
 │
 ├── PowerBI/
 │   └── Chinook_Report.pbix
 │
 └── Images/
-    └── dashboard.png
+    └── Dashboard 1
+    └── Dashboard 2
+    └── Dashboard 3
 🎯 Objetivo del proyecto
 
 Aplicar un flujo básico de Business Intelligence, partiendo desde la extracción y estructuración de datos mediante SQL hasta su análisis y visualización en Power BI.
