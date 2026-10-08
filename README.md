@@ -55,16 +55,18 @@ chinook-powerbi-sql/
 │   └── Chinook_Report.pbix
 │
 └── Images/
-    ## 📊 Reporte en Power BI
+
+
+## 📊 Reporte en Power BI
 
 ### Dashboard 1
-![Dashboard 1](POWER%20BI/images/dashboard_1.png.png)
+![Dashboard 1](<POWER BI/images/Dashboard_1.PNG>)
 
 ### Dashboard 2
-![Dashboard 2](POWER%20BI/images/dashboard_2.png.png)
+![Dashboard 2](<POWER BI/images/Dashboard_2.PNG>)
 
 ### Dashboard 3
-![Dashboard 3](POWER%20BI/images/dashboard_3.png.png)
+![Dashboard 3](<POWER BI/images/Dashboard_3.PNG>)
 
 🎯 Objetivo del proyecto
 
