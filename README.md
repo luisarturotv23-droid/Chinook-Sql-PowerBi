@@ -62,7 +62,7 @@ chinook-powerbi-sql/
    |── [Chinook Report - Power BI](<POWER BI/Chinook_Report.pbix>)
 
 
-   |── Images/
+   |── Images
 
 
 ## 📊 Reporte en Power BI
